@@ -1,13 +1,18 @@
 ﻿using DeExt;
+
 namespace DeExtTest
 {
-    public class StringUnitTest
+    partial class StringUnitTest
     {
         [Theory]
+#pragma warning disable xUnit1012 // Null test
         [InlineData(true, null)]
-        [InlineData(true, "")]
+#pragma warning restore xUnit1012 
+        [InlineData(true, EmptyString)]
         [InlineData(false, "One")]
-        public void Base(bool state, string value)
+        public void IsNullOrWhiteSpace(
+            bool state, 
+            string value)
         {
             if (state)
             {
