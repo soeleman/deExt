@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeExtTest", "DeExtTest\DeExtTest.csproj", "{9770D3F0-1C9A-4325-8D47-B4C0C2703597}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeExt", "..\src\DeExt\DeExt.csproj", "{59149880-4672-43A0-A434-7E5EB31C9BD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeExt.EntityFrameworkCore", "..\src\DeExt.EntityFrameworkCore\DeExt.EntityFrameworkCore.csproj", "{236D6DF5-BEB8-4C8B-99CB-9277860AF60D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{59149880-4672-43A0-A434-7E5EB31C9BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59149880-4672-43A0-A434-7E5EB31C9BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59149880-4672-43A0-A434-7E5EB31C9BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{236D6DF5-BEB8-4C8B-99CB-9277860AF60D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236D6DF5-BEB8-4C8B-99CB-9277860AF60D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{236D6DF5-BEB8-4C8B-99CB-9277860AF60D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{236D6DF5-BEB8-4C8B-99CB-9277860AF60D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

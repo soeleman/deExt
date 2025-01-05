@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeExt", "DeExt\DeExt.csproj", "{E9FA3E60-068B-4B0A-A953-F5DF3F05E584}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeExt.EntityFrameworkCore", "DeExt.EntityFrameworkCore\DeExt.EntityFrameworkCore.csproj", "{45F300DC-21F5-468C-BD74-D8838E718574}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E9FA3E60-068B-4B0A-A953-F5DF3F05E584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9FA3E60-068B-4B0A-A953-F5DF3F05E584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9FA3E60-068B-4B0A-A953-F5DF3F05E584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F300DC-21F5-468C-BD74-D8838E718574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F300DC-21F5-468C-BD74-D8838E718574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F300DC-21F5-468C-BD74-D8838E718574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F300DC-21F5-468C-BD74-D8838E718574}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
